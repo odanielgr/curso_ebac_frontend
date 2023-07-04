@@ -1,0 +1,4 @@
+HTML, CSS e JavaScript: Quais suas importâncias para a construção de páginas web?
+
+Como vimos durante o módulo, HTML, CSS e JS são o Core do desenvolvedor front-end. Essas três ferramentas quando utilizadas em conjunto da maneira correta formam uma sintonia que dá á vida para as telinhas. O HTML criado por Tim Berners-Lee seria como o "esqueleto" da página, identificando o que é um texto, imagem e outros. Então aparece o CSS e deixa tudo mais vivo e bonito com efeitos e transições, e por fim, o JavaScript criado por Brendan Eich em 95 aparece para dar interações, dinamismo e fazer o core funcionar.
+Portanto, cada uma das ferramentas tem sua devida função e importância garantindo uma página web agradável para consumo.
