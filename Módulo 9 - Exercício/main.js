@@ -10,6 +10,7 @@ $(document).ready(function () {
 
         $("li").click(function () {
             $(this).addClass("sucesso")
+            console.log(this)
         })
 
         $("#nome-tarefa").val("") // Para atualizar o form ao clicar no botão cadastrar
