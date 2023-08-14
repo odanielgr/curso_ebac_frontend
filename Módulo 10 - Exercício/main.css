@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+header img {
+    height: 32px;
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+}
+
+form input, button {
+    display: flex;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
