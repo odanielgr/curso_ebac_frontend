@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+body {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+    margin: 50px 50px;
+    border-radius: 100px;
+    padding: 16px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h1, h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 32px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+#menu li a {
+    color: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    margin: 40px 0;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.616);
+    font-size: 22px;
+}
+
+/* Cards */
+
+.btn-assistir {
+    margin: 12px 0;
+}
+
+/* Footer */
+
+    .footer  {
+        background-color: rgba(211, 211, 211, 0.616);
+        margin-top: 25px;
+        padding: 16px 0;
+    }
+
+    .footer .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        position: relative;
+    }
+
+    .footer nav ul li a {
+        text-decoration: none;
+        list-style: none;
+        color: #212529;
+    }
+
+    .footer nav ul {
+        list-style: none;
+    }
+
+    .footer li {
+        padding-bottom: 16px;
+    }
+
+    .footer h6 {
+        position: absolute;
+        bottom: 0;
+        margin: 0px;
+        opacity: calc(0.4);
+    }
+
+    .footer h6 a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* Mobile */
+
+    @media screen and (max-width: 767px) {
+
+    /* Header */
+
+    header {
+        border-radius: 50px;
+    }
+
+    #menu .nav-link {
+        padding: 0.5rem 0.5rem;
+        margin: 16px 0px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    /* Cards */
+
+    .row {
+        display: block;
+        margin: 0px;
+    }
+
+    .row .col-4 {
+        width: 100vw;
+        padding: 0px;
+    }
+}
+
+/* Tablets */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+
+    header {
+        border-radius: 50px;
+    }
+
+    #menu .nav-link {
+        padding: 0.5rem 0.5rem;
+        margin: 16px 0px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    /* Cards */
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .row .col-4 {
+        width: 100vw;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1023px) {
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+    }
+
+    .row .col-4 {
+        width: 100vw;
+    }
+}
