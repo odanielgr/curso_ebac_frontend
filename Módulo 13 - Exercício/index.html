@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS - Filmes e Séries</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>BS - Séries e Filmes</h1>
+                <button type="button" class="navbar navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Séries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Campeões de Bilheteria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Em Alta</h2>
+        <div id="carousel-avancar" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <a href="#"><img src="images/oppenheimer.webp" alt=""></a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#"><img src="images/megatubarao2.jpg" alt=""></a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#"><img src="images/the-flash.jpg" alt=""></a>
+                </div>
+            </div>
+            <button type="button" data-bs-target="#carousel-avancar" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-target="#carousel-avancar" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-slide-to="0" data-bs-target="carousel-avancar" class="active"></button>
+                <button type="button" data-bs-slide-to="1" data-bs-target="carousel-avancar"></button>
+                <button type="button" data-bs-slide-to="2" data-bs-target="carousel-avancar"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <h2>Séries em Alta</h2>
+        <div class="row g-5">
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="images/TLOU serie.jpg" alt="Imagem da série The Last of Us"></a>
+                    <div class="card-body">
+                        <h4>Dos jogos para as Telas</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Incidunt, ut? Eligendi facere nostrum pariatur incidunt quo ea cum, culpa voluptate beatae ipsam ipsa explicabo! Corrupti, iusto esse! Tempora, mollitia commodi.
+                        </p>
+                        <a class="btn btn-light btn-assistir" href="#">Assistir Série</a>
+                        <footer>
+                            <p>Postado em <time>04/09/2023 ás 18:16 horas</time></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="images/one-piece-serie.jpg" alt="Imagem da série One Piece"></a>
+                    <div class="card-body">
+                        <h4>Do manga para o Live-action</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Inventore modi nobis voluptas ipsam neque quisquam. Quibusdam reprehenderit necessitatibus quae tempore? Obcaecati suscipit laborum eius dolore incidunt nisi quas consectetur maxime.
+                        </p>
+                        <a class="btn btn-light btn-assistir" href="#">Assistir Série</a>
+                        <footer>
+                            <p>Postado em <time>04/09/2023 ás 18:16 horas</time></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="images/amor e morte.jpg" alt="Imagem da série Amor e Morte"></a>
+                    <div class="card-body">
+                        <h4>Sucesso na HBO Max</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis optio beatae libero, perferendis fugit,
+                            voluptas tempora porro eveniet, nihil dicta reprehenderit? Repellat delectus illum officiis suscipit eveniet sed ipsa?
+                        </p>
+                        <a class="btn btn-light btn-assistir" href="#">Assistir Série</a>
+                        <footer>
+                            <p>Postado em <time>04/09/2023 ás 18:16 horas</time></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="images/peaky-blinders.jpg" alt="Imagem da série Peaky Blinders"></a>
+                    <div class="card-body">
+                        <h4>Sucesso na Netflix</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae officiis optio beatae libero, perferendis fugit,
+                            voluptas tempora porro eveniet, nihil dicta reprehenderit? Repellat delectus illum officiis suscipit eveniet sed ipsa?
+                        </p>
+                        <a class="btn btn-light btn-assistir" href="#">Assistir Série</a>
+                        <footer>
+                            <p>Postado em <time>05/09/2023 ás 9:59 horas</time></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <h6>Feito por <a href="https://meu-portf-lio-opal.vercel.app/" target="_blank">Daniel Rodrigues</a></h6>
+            <p>
+                &copy; Todos os diretos reservados - 2023
+            </p>
+            <nav id="contato">
+                <ul>
+                    <li>
+                        <a href="#">Termos</a>
+                    </li>
+                    <li>
+                        <a href="#">Parceiros</a>
+                    </li>
+                    <li>
+                        <a href="#">+55 (00) 0000-0000</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
