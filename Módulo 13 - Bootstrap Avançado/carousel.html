@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-fade">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/08/08/18/01/butterfly-8177925_1280.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de uma Borboleta</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/08/19/05/50/wolf-8199785_1280.png" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de um Lobo</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100"  src="https://cdn.pixabay.com/photo/2023/04/26/18/05/bird-7953069_1280.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de um Pássaro</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-slide="prev" data-bs-target="#carousel-exemplo" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#carousel-exemplo" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button data-bs-slide-to="0" data-bs-target="carousel-exemplo" class="active" type="button"></button>
+                <button data-bs-slide-to="1" data-bs-target="carousel-exemplo" type="button"></button>
+                <button data-bs-slide-to="2" data-bs-target="carousel-exemplo" type="button"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
