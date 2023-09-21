@@ -1,4 +1,4 @@
-const form = document.getElementById("form-deposito")
+    const form = document.getElementById("form-deposito")
 const nomeBeneficiario = document.getElementById("nome-beneficiario");
 var formValido = false;
 
